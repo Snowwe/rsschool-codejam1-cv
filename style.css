@@ -1,0 +1,79 @@
+body {
+    font: 16px Comic Sans MS, "Tahoma", sans-serif;
+    background-color: #F7F7BD;
+    color: #080842;
+    text-align: justify;
+    margin: 15px auto;
+}
+
+section {
+    min-height: 100%;
+    min-width: 700px;
+    max-width: 1024px;
+    margin: 15px auto 25px;
+    padding: 0 15px;
+}
+.info {
+    grid-area: info;
+}
+
+.leftSide {
+    grid-area: leftSide;
+}
+
+.content {
+    display: grid;
+    grid-template-areas: "leftSide info";
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto;
+}
+.contact {
+    color: #232323;
+    font-size: 15px;
+    font-style: italic;
+}
+
+td {
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.socialNetwork {
+    width: 40px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin: 7px 0;
+    background-color: #D1C5B5;
+    color: #2E3A4A;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: gainsboro;
+    color: #232323;
+}
+
+button:active {
+    width: 210px;
+}
+
+footer {
+    background: #FFFFD2;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    color: rgb(33, 81, 90);
+    text-align: center;
+    padding-top: 20px;
+}
